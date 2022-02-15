@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 10vh;
+    background-color: #172438;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.apiContainer h2 {
+    text-align: center;
+    color: lime;
+    margin: 20px 0px;
+    border-bottom: 2px solid white;
+}
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+    margin: auto;
+  }
+
+th {
+    color: lime;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+td, th {
+	border: 0.5px solid lime;
+	text-align: center;
+	padding: 18px;
+  }
+
+  .inputHandler {
+      width: 50%;
+      margin: 1.5rem auto;
+  }
+
+  .apiContainer .btn {
+    margin-left: 21rem;
+    margin-bottom: 15px;
+    width: 10%;
+    height: 45px;
+    background-color:#172438;
+    color: white;
+    font-weight: bold;
+    border: 1px solid lime;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .apiContainer .btn:hover {
+      background-color: lime;
+      color: #ffffff;
+      border: none;
+      transform: scale(1.1);
+      transition: .5s;
+  }
+  
+  .inputHandler input {
+    width: 50%;
+    height: 45px;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid lime;
+    position: relative;
+    background-color: #172438;
+    color: #ffffff;
+}
+
+#todoBtn {
+    position: relative;
+    width: 20%;
+    height: 45px;
+    background-color:#172438;
+    color: white;
+    border: 1px solid lime;
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+#todoBtn:hover {
+    background-color: lime;
+    color: #ffffff;
+    border: none;
+    transform: scale(1.1);
+    transition: .5s;
+}
